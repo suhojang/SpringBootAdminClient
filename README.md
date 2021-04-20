@@ -116,4 +116,5 @@ logging:
     max-size: 10MB
 ````
 #### SpringBootAdminView
-![Spring Boot Admin](https://github.com/suhojang/SpringBootAdmin/blob/master/springbootAdmin.png)
+![Spring Boot Admin](https://github.com/suhojang/SpringBootAdminClient/blob/master/springbootAdminClient01.png)
+![Spring Boot Admin](https://github.com/suhojang/SpringBootAdminClient/blob/master/springbootAdminClient02.png)
