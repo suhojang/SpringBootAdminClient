@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: boot admin A Client
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+        instance:
+          metadata:
+            name: ${spring.application.name}
+            user.name: ${spring.security.user.name}
+            user.password: ${spring.security.user.password}
+        username: ${spring.security.user.name}
+        password: ${spring.security.user.password}
+  security:
+    user:
+      name: jsh2808
+      password: 1234
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    health:
+      show-details: always
+
+server:
+  address: localhost
+  port: 18080
+
+logging:
+  file:
+    name: boot-admin-A-Client.log
+    max-history: 5
+    max-size: 10MB

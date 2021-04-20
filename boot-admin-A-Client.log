@@ -1,0 +1,62 @@
+2021-04-20 09:33:42.567  INFO 31640 --- [main] c.j.S.SpringBootClientApplication        : Starting SpringBootClientApplication using Java 1.8.0_191 on DESKTOP-7ECUB86 with PID 31640 (D:\Documents\GitHub\SpringBootClient\build\classes\java\main started by DEV_PC in D:\Documents\GitHub\SpringBootClient)
+2021-04-20 09:33:42.576  INFO 31640 --- [main] c.j.S.SpringBootClientApplication        : No active profile set, falling back to default profiles: default
+2021-04-20 09:33:44.353  INFO 31640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2021-04-20 09:33:44.364  INFO 31640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-20 09:33:44.365  INFO 31640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 09:33:44.442  INFO 31640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-20 09:33:44.442  INFO 31640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1822 ms
+2021-04-20 09:33:44.756  INFO 31640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 09:33:45.052  INFO 31640 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-20 09:33:45.163  INFO 31640 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f53c2a7f-026b-4624-b4d3-c149771c66af
+
+2021-04-20 09:33:45.258  INFO 31640 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37b52340, org.springframework.security.web.context.SecurityContextPersistenceFilter@67514bdd, org.springframework.security.web.header.HeaderWriterFilter@63884e4, org.springframework.security.web.authentication.logout.LogoutFilter@4fa9ab6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f5538a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6edf29c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@663bb8ef, org.springframework.security.web.session.SessionManagementFilter@173a6728, org.springframework.security.web.access.ExceptionTranslationFilter@7afc4db9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7412ed6b]
+2021-04-20 09:33:45.280  INFO 31640 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-04-20 09:33:45.342  INFO 31640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-20 09:33:45.355  INFO 31640 --- [main] c.j.S.SpringBootClientApplication        : Started SpringBootClientApplication in 3.255 seconds (JVM running for 3.674)
+2021-04-20 09:33:45.579  INFO 31640 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 5bb79f9a9070
+2021-04-20 09:33:45.622  INFO 31640 --- [http-nio-127.0.0.1-18080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-20 09:33:45.622  INFO 31640 --- [http-nio-127.0.0.1-18080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-20 09:33:45.624  INFO 31640 --- [http-nio-127.0.0.1-18080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-20 09:58:47.408  WARN 31640 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=boot admin A Client, managementUrl=http://d-w4c.easyms.co.kr:18080/actuator, healthUrl=http://d-w4c.easyms.co.kr:18080/actuator/health, serviceUrl=http://d-w4c.easyms.co.kr:18080/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2021-04-20 09:59:16.257  INFO 31016 --- [main] c.j.S.SpringBootClientApplication        : Starting SpringBootClientApplication using Java 1.8.0_191 on DESKTOP-7ECUB86 with PID 31016 (D:\Documents\GitHub\SpringBootClient\build\classes\java\main started by DEV_PC in D:\Documents\GitHub\SpringBootClient)
+2021-04-20 09:59:16.260  INFO 31016 --- [main] c.j.S.SpringBootClientApplication        : No active profile set, falling back to default profiles: default
+2021-04-20 09:59:17.811  INFO 31016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2021-04-20 09:59:17.822  INFO 31016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-20 09:59:17.822  INFO 31016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 09:59:17.898  INFO 31016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-20 09:59:17.898  INFO 31016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1597 ms
+2021-04-20 09:59:18.200  INFO 31016 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 09:59:18.499  INFO 31016 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-20 09:59:18.651  INFO 31016 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cf6f7dc0-63a7-40eb-b236-09f73c2e03b4
+
+2021-04-20 09:59:18.734  INFO 31016 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1645f294, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ba46e63, org.springframework.security.web.header.HeaderWriterFilter@7a583586, org.springframework.security.web.authentication.logout.LogoutFilter@34780cd9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dc3271b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ae2db25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6325f352, org.springframework.security.web.session.SessionManagementFilter@54e02f6a, org.springframework.security.web.access.ExceptionTranslationFilter@1c26273d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b9a77c8]
+2021-04-20 09:59:18.753  INFO 31016 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-04-20 09:59:18.803  INFO 31016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-20 09:59:18.817  INFO 31016 --- [main] c.j.S.SpringBootClientApplication        : Started SpringBootClientApplication in 2.995 seconds (JVM running for 3.401)
+2021-04-20 09:59:19.063  INFO 31016 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 5bb79f9a9070
+2021-04-20 09:59:19.101  INFO 31016 --- [http-nio-127.0.0.1-18080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-20 09:59:19.101  INFO 31016 --- [http-nio-127.0.0.1-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-20 09:59:19.102  INFO 31016 --- [http-nio-127.0.0.1-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-20 10:53:40.897  WARN 31016 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=boot admin A Client, managementUrl=http://d-w4c.easyms.co.kr:18080/actuator, healthUrl=http://d-w4c.easyms.co.kr:18080/actuator/health, serviceUrl=http://d-w4c.easyms.co.kr:18080/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2021-04-20 13:37:05.430  INFO 22152 --- [main] c.j.S.SpringBootClientApplication        : Starting SpringBootClientApplication using Java 1.8.0_191 on DESKTOP-7ECUB86 with PID 22152 (D:\Documents\GitHub\SpringBootClient\build\classes\java\main started by DEV_PC in D:\Documents\GitHub\SpringBootClient)
+2021-04-20 13:37:05.433  INFO 22152 --- [main] c.j.S.SpringBootClientApplication        : No active profile set, falling back to default profiles: default
+2021-04-20 13:37:07.417  INFO 22152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2021-04-20 13:37:07.461  INFO 22152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-20 13:37:07.461  INFO 22152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 13:37:07.577  INFO 22152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-20 13:37:07.577  INFO 22152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2095 ms
+2021-04-20 13:37:07.880  INFO 22152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 13:37:08.160  INFO 22152 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-20 13:37:08.402  INFO 22152 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@544e8149, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ab34619, org.springframework.security.web.header.HeaderWriterFilter@54e02f6a, org.springframework.security.web.authentication.logout.LogoutFilter@4437ac07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@363c4251, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6812fa3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fb66650, org.springframework.security.web.session.SessionManagementFilter@1f346ad2, org.springframework.security.web.access.ExceptionTranslationFilter@10f7918f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1645f294]
+2021-04-20 13:37:08.425  INFO 22152 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-04-20 13:37:08.512  INFO 22152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-20 13:37:08.523  INFO 22152 --- [main] c.j.S.SpringBootClientApplication        : Started SpringBootClientApplication in 3.703 seconds (JVM running for 4.181)
+2021-04-20 13:37:10.691  WARN 22152 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=boot admin A Client, managementUrl=http://d-w4c.easyms.co.kr:18080/actuator, healthUrl=http://d-w4c.easyms.co.kr:18080/actuator/health, serviceUrl=http://d-w4c.easyms.co.kr:18080/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2021-04-20 13:37:30.658  INFO 22152 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 5bb79f9a9070
+2021-04-20 13:37:30.791  INFO 22152 --- [http-nio-127.0.0.1-18080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-20 13:37:30.792  INFO 22152 --- [http-nio-127.0.0.1-18080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-20 13:37:30.793  INFO 22152 --- [http-nio-127.0.0.1-18080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
